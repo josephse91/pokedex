@@ -7,6 +7,8 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
+    <meta name="image" property="og:image" content="<%= image_url("pokeball.svg")%>">
+
     <script type="text/javascript">
       window.POKEMON_TYPES = <%= raw Pokemon::TYPES %>
       window.images = {
