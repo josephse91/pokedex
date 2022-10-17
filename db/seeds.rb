@@ -8,10 +8,10 @@
 
 def candidate_item 
   %w(
-    /assets/pokemon_berry.svg
-    /assets/pokemon_egg.svg
-    /assets/pokemon_potion.svg
-    /assets/pokemon_super_potion.svg
+    /assets/images/pokemon_berry.svg
+    /assets/images/pokemon_egg.svg
+    /assets/images/pokemon_potion.svg
+    /assets/images/pokemon_super_potion.svg
   ).sample
 end
 
